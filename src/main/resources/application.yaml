@@ -1,0 +1,30 @@
+server:
+  port: 8081
+
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:demo
+    username: sa
+    password:
+  jpa:
+    show_sql: true
+    open-in-view: false
+    hibernate:
+      ddl-auto: create
+
+
+auth:
+  hash-secret: DEMO
+  session-secret:
+    access-token: 12345
+    refresh-token: 67890
+
+
+jwt:
+  secret: JAEMINDEMO
+  expire_time: 864000
