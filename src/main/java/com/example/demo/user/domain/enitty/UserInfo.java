@@ -18,7 +18,7 @@ public class UserInfo {
     private Integer userSeq;
 
     @Column(name = "user_name", nullable = false, unique = true)
-    private String userNane;
+    private String userName;
 
     @Column(name = "password", nullable = false)
     @JsonIgnore
