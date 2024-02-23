@@ -1,7 +1,7 @@
-package com.example.demo.core.exception.handler;
+package com.example.demo.exception.handler;
 
-import com.example.demo.core.exception.dto.CustomException;
-import com.example.demo.core.exception.dto.ErrorDetail;
+import com.example.demo.exception.dto.CustomException;
+import com.example.demo.exception.dto.ErrorDetail;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

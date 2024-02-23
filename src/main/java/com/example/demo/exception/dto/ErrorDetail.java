@@ -1,4 +1,4 @@
-package com.example.demo.core.exception.dto;
+package com.example.demo.exception.dto;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

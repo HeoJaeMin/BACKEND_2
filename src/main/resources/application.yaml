@@ -17,14 +17,7 @@ spring:
     hibernate:
       ddl-auto: create
 
-
-auth:
-  hash-secret: DEMO
-  session-secret:
-    access-token: 12345
-    refresh-token: 67890
-
-
 jwt:
-  secret: JAEMINDEMO
-  expire_time: 864000
+  secret: 381ddcb500fded24fbf4af856f69b9ca7d5ada55d524763d70d7f17c19cc3b62
+  access_expire_time: 6000
+  refresh_expire_time: 60000
